@@ -1,6 +1,6 @@
 FROM node:18-alpine AS build
 RUN mkdir MEARN
-ADD  MEARN MEARN/
+ADD  MEAN-CRUD MEARN/
 WORKDIR MEARN/client/
 RUN ls -l .
 RUN npm install
