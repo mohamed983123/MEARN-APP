@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const server = '127.0.0.1:27017' // REPLACE WITH YOUR OWN SERVER
+const server = 'mongo:27017' // REPLACE WITH YOUR OWN SERVER
 const database = 'mean-crud'          // REPLACE WITH YOUR OWN DB NAME
 
 const connectDB = async () => {
